@@ -1,18 +1,21 @@
 # Real-Time-Bus-Tracker
 
-Using map animation the given co-ordinates of bus stops are showing with a marker and displaying those into the map.
-This work is about showing bus stops between MIT and Harvard
+This page will show the real time bus movement of route 1 bus between MIT and Harvard campus.
+Real-time bus data gathered from the MBTA API(obtained from [MBTA's V3 API developer portal](https://api-v3.mbta.com/).
+From this API response we will get latitude, longitude and directions details of moving buses informations.
+These details are integrating into the Google Maps API and displays the live location of the buses on a map. 
 
 ## How to Run
 
-There is button in the map page, after clicking the **Show stops** button the JavaScript written for showing markers(bus stops) 
-activates and move the marker from starting stop from MIT and cover all the stops till Harward.
-For viewing the map, our own access key have to create in mapbox site.
+The google map page with map pins of real time bus movement rendeds when page loads.
+To get real time bus data need to add MBTA url with filtered route 1 and trip details.
+For accessing Google Map in the page one should to add their own API key. There are two icons used to indicate the direction of buses.
+Red one shows that bus is moving towards Harvard and blue one moving near to MIT.
 
 ## Roadmap
 
-A lot of updation needed to this excercise. I am planning to integrate an API to for the co-ordinates data instead of using static data.
-I will make changes in the appearence and will create more user interactivness.
+I am planning to add button and event listners so that after clicking button only can view the map pins movement
+I will changes the appearence and will make more user interactivne in future.
 
 ## Support
 
