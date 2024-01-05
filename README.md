@@ -10,7 +10,7 @@ These details are integrating into the Google Maps API and displays the live loc
 The google map page with map pins of real time bus movement rendeds when page loads.
 To get real time bus data need to add MBTA url with filtered route 1 and trip details.
 For accessing Google Map in the page one should to add their own API key. There are two icons used to indicate the direction of buses.
-Red one shows that bus is moving towards Harvard and blue one away from Harvard.
+Red one shows that bus is moving towards Harvard and blue shows the bus direction fromone Harvard to MIT direction.
 
 ## Roadmap
 
